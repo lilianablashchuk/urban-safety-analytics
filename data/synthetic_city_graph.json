@@ -1,0 +1,300 @@
+{
+  "nodes": {
+    "Node_0_0": {
+      "name": "Stryiskyi Park / Naukova",
+      "lat": 49.8058,
+      "lon": 24.0175,
+      "district": "Frankivskyi"
+    },
+    "Node_0_1": {
+      "name": "Victoria Gardens / Kulparkivska",
+      "lat": 49.8075,
+      "lon": 23.9785,
+      "district": "Frankivskyi"
+    },
+    "Node_0_2": {
+      "name": "Lviv Polytechnic / Bandery St",
+      "lat": 49.8355,
+      "lon": 24.0144,
+      "district": "Frankivskyi"
+    },
+    "Node_0_3": {
+      "name": "Sakharova St / Kastelivka",
+      "lat": 49.8265,
+      "lon": 24.016,
+      "district": "Frankivskyi"
+    },
+    "Node_0_4": {
+      "name": "Sykhiv / Dovzhenka Center",
+      "lat": 49.7938,
+      "lon": 24.0617,
+      "district": "Sykhivskyi"
+    },
+    "Node_1_0": {
+      "name": "Horodotska St / Levandivka",
+      "lat": 49.8415,
+      "lon": 23.973,
+      "district": "Zaliznychnyi"
+    },
+    "Node_1_1": {
+      "name": "Main Railway Station",
+      "lat": 49.8397,
+      "lon": 23.9942,
+      "district": "Zaliznychnyi"
+    },
+    "Node_1_2": {
+      "name": "St. George Cathedral",
+      "lat": 49.8385,
+      "lon": 24.0132,
+      "district": "Halytskyi"
+    },
+    "Node_1_3": {
+      "name": "Stryiska St / Tax Office",
+      "lat": 49.818,
+      "lon": 24.0225,
+      "district": "Frankivskyi"
+    },
+    "Node_1_4": {
+      "name": "Zelena St / Vodokanal",
+      "lat": 49.8235,
+      "lon": 24.0455,
+      "district": "Lychakivskyi"
+    },
+    "Node_2_0": {
+      "name": "Shevchenka St / Riasne",
+      "lat": 49.852,
+      "lon": 23.988,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_2_1": {
+      "name": "Circus / Horodotska Hub",
+      "lat": 49.8405,
+      "lon": 24.011,
+      "district": "Halytskyi"
+    },
+    "Node_2_2": {
+      "name": "Lviv Opera House / Svobody Ave",
+      "lat": 49.8441,
+      "lon": 24.0262,
+      "district": "Halytskyi"
+    },
+    "Node_2_3": {
+      "name": "Rynok Square / City Hall",
+      "lat": 49.8419,
+      "lon": 24.0315,
+      "district": "Halytskyi"
+    },
+    "Node_2_4": {
+      "name": "Lychakivska St / Medical Univ",
+      "lat": 49.8369,
+      "lon": 24.0512,
+      "district": "Lychakivskyi"
+    },
+    "Node_3_0": {
+      "name": "Kleparivska St / SKA Stadium",
+      "lat": 49.8515,
+      "lon": 24.0125,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_3_1": {
+      "name": "Forum Lviv / Pid Dubom St",
+      "lat": 49.8501,
+      "lon": 24.0224,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_3_2": {
+      "name": "Staryi Rynok / Pidzamche",
+      "lat": 49.8483,
+      "lon": 24.031,
+      "district": "Halytskyi"
+    },
+    "Node_3_3": {
+      "name": "High Castle / Kryvonosa St",
+      "lat": 49.8475,
+      "lon": 24.0394,
+      "district": "Halytskyi"
+    },
+    "Node_3_4": {
+      "name": "Pasichna St / Pohulianka",
+      "lat": 49.827,
+      "lon": 24.068,
+      "district": "Lychakivskyi"
+    },
+    "Node_4_0": {
+      "name": "Chornovola Ave / North Hub",
+      "lat": 49.8615,
+      "lon": 24.0185,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_4_1": {
+      "name": "Zamarstynivska / Spartak",
+      "lat": 49.8685,
+      "lon": 24.029,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_4_2": {
+      "name": "Pidzamche Railway Station",
+      "lat": 49.8548,
+      "lon": 24.0365,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_4_3": {
+      "name": "Bohdana Khmelnytskoho St",
+      "lat": 49.8575,
+      "lon": 24.045,
+      "district": "Shevchenkivskyi"
+    },
+    "Node_4_4": {
+      "name": "Trakt Hlynianskyi / Vynnyky",
+      "lat": 49.842,
+      "lon": 24.082,
+      "district": "Lychakivskyi"
+    }
+  },
+  "edges": [
+    [
+      "Node_0_1",
+      "Node_1_0"
+    ],
+    [
+      "Node_0_1",
+      "Node_0_0"
+    ],
+    [
+      "Node_0_0",
+      "Node_1_3"
+    ],
+    [
+      "Node_0_0",
+      "Node_0_3"
+    ],
+    [
+      "Node_0_3",
+      "Node_0_2"
+    ],
+    [
+      "Node_0_3",
+      "Node_1_3"
+    ],
+    [
+      "Node_1_3",
+      "Node_1_4"
+    ],
+    [
+      "Node_1_4",
+      "Node_0_4"
+    ],
+    [
+      "Node_1_4",
+      "Node_2_4"
+    ],
+    [
+      "Node_1_4",
+      "Node_3_4"
+    ],
+    [
+      "Node_3_4",
+      "Node_4_4"
+    ],
+    [
+      "Node_2_4",
+      "Node_3_4"
+    ],
+    [
+      "Node_1_0",
+      "Node_1_1"
+    ],
+    [
+      "Node_1_1",
+      "Node_2_1"
+    ],
+    [
+      "Node_1_1",
+      "Node_0_2"
+    ],
+    [
+      "Node_0_2",
+      "Node_1_2"
+    ],
+    [
+      "Node_1_2",
+      "Node_2_1"
+    ],
+    [
+      "Node_2_1",
+      "Node_2_2"
+    ],
+    [
+      "Node_2_2",
+      "Node_2_3"
+    ],
+    [
+      "Node_2_3",
+      "Node_2_4"
+    ],
+    [
+      "Node_2_3",
+      "Node_3_3"
+    ],
+    [
+      "Node_2_2",
+      "Node_3_1"
+    ],
+    [
+      "Node_2_2",
+      "Node_3_2"
+    ],
+    [
+      "Node_3_2",
+      "Node_3_3"
+    ],
+    [
+      "Node_3_1",
+      "Node_3_2"
+    ],
+    [
+      "Node_3_1",
+      "Node_3_0"
+    ],
+    [
+      "Node_3_0",
+      "Node_2_0"
+    ],
+    [
+      "Node_2_0",
+      "Node_1_0"
+    ],
+    [
+      "Node_3_1",
+      "Node_4_0"
+    ],
+    [
+      "Node_4_0",
+      "Node_4_1"
+    ],
+    [
+      "Node_4_0",
+      "Node_4_2"
+    ],
+    [
+      "Node_4_2",
+      "Node_3_2"
+    ],
+    [
+      "Node_4_2",
+      "Node_4_3"
+    ],
+    [
+      "Node_4_3",
+      "Node_4_4"
+    ],
+    [
+      "Node_3_3",
+      "Node_4_2"
+    ],
+    [
+      "Node_1_2",
+      "Node_2_3"
+    ]
+  ]
+}
